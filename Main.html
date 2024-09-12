@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>'
+    <link rel="icon" href="./assets/img/01.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  
+
+<!--Box Link-->
+<link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+ 
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#home" class="nav-logo"><img src="./assets/img/icon1.png" height="70px" alt="H"/></a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                      <a href="#home" class="nav-link home active">Home</a>
+                    </li >
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link about">About</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a href="#education" class="nav-link education">Education</a>
+                  </li>
+                  
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link skills">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link Projects">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link Contact">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href = "#" onclick="myFunction()"> <img src="./assets/img/mode1.png" alt="" height="20px" width="20px" style="background-color: transparent;"> </a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main class="l-main">
+        <!--Home-->
+        <section class="home bd-grid section" id="home">
+          <div class="home-content">
+            <!-- Home Data (Text and Buttons) -->
+            <div class="home-data">
+              <h1 id="home-heading" class="home-title">Hi👋,<br/>I'am 
+                <span class="home-title-color">Chethan Krishna</span><br />
+                <span id="jobTitle"> Java Developer</span>
+              </h1>
+              <a href="https://drive.google.com/file/d/1KU-sJoJ4R-Bln3mytMqB4UqcjKi3homx/view?usp=drive_link" target="_blank"
+                 class="button">Resume</a>
+            </div>
+          
+            <!-- Home Social Icons -->
+            <div class="home-social">
+              <a href="https://www.linkedin.com/in/kota-chethan-520909269/" target="_blank" class="home-social-icon">
+                <i class="bx bxl-linkedin"></i>
+              </a>
+              <a href="https://github.com/Chethan1711" target="_blank" class="home-social-icon">
+                <i class="bx bxl-github"></i>
+              </a>
+            </div>
+          
+            <!-- Home Image -->
+            <div class="home-img">
+              <img src="assets/img/profile.gif" class="image-light" alt="Light Mode Image" />
+              <img src="assets/img/profile1.gif" class="image-dark" alt="Dark Mode Image" />
+            </div>
+          </div>
+          
+         
+              
+
+        </section>
+
+        <!--About-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about-container bd-grid">
+                <div>
+                    <img src="assets/img/Chethan.JPG" alt="" />
+                </div>
+                <div style="text-align: center;">
+                    <h2 class="about-subtitle">I'am Chethan</h2>
+                    <p>
+                      As a dedicated and fast-learning Java Full Stack Developer, I am excited to bring my comprehensive skill set to a dynamic and innovative company. With a solid foundation in both frontend and backend technologies, I excel in developing robust and scalable applications. My experience includes proficiency in Java for backend development, along with expertise in integrating various technologies to deliver cohesive solutions. I am passionate about applying my skills to real-world projects and am eager to contribute to a team where I can continue to grow and enhance my capabilities. My goal is to leverage my knowledge and enthusiasm to drive impactful results and advance my career in a thriving environment.
+                    </p>
+                    <br/>
+                    <p>
+                        Drop a mail chethankrishna445@gmail.com
+
+                       
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--Education-->
+        <section class="education section" id="education">
+          <h2 class="section-title">Education</h2>
+          <div class="education-container bd-grid">
+              <div class="education-data">
+                  <span class="education-name">Java Full Stack Developer</span>
+                  <span class="education-platform">JSpiders</span>
+                  <span class="education-duration">January 2024 - August 2024</span>
+              </div>
+              <div class="education-data">
+                  <span class="education-name">B.Tech (CSE)</span>
+                  <span class="education-platform">Mother Theresa Institute of Engineering and Technology</span>
+                  <span class="education-duration">Jan 2021 - June 2024</span>
+              </div>
+              <div class="education-data">
+                <span class="education-name">Intermediate</span>
+                <span class="education-platform">NRI junior college</span>
+                <span class="education-duration">June 2018 - March 2020</span>
+            </div>
+            <div class="education-data">
+              <span class="education-name">Secondary Education</span>
+              <span class="education-platform">Chaitanya Children's Academy</span>
+              <span class="education-duration">June 2013 - April 2018</span>
+          </div>
+          </div>
+      </section>
+      
+        <!--Skills-->
+        <section class="skills section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-container bd-grid">
+              <div class="skills-row">
+                  <div class="skills-data">
+                      <div class="skills-names">
+                          <i class="fa-brands fa-java skills-icon"></i> <!-- FontAwesome Java icon -->
+                          <span class="skills-name">Java</span>
+                      </div>
+                  </div>
+                  <div class="skills-data">
+                      <div class="skills-names">
+                          <i class="fa-solid fa-database skills-icon"></i> <!-- FontAwesome SQL icon -->
+                          <span class="skills-name">SQL</span>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="skills-row">
+                  <div class="skills-data">
+                      <div class="skills-names">
+                          <i class="bx bx-server skills-icon"></i> 
+                          <span class="skills-name">J2EE</span>
+                      </div>
+                  </div>
+                  <div class="skills-data">
+                      <div class="skills-names">
+                          <i class="bx bx-layer skills-icon"></i> 
+                          <span class="skills-name">Hibernate</span>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="skills-row">
+                  <div class="skills-data">
+                      <div class="skills-names">
+                          <i class="bx bxl-html5 skills-icon"></i>
+                          <span class="skills-name">HTML</span>
+                      </div>
+                  </div>
+                  <div class="skills-data">
+                      <div class="skills-names">
+                          <i class="bx bxl-css3 skills-icon"></i>
+                          <span class="skills-name">CSS</span>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="skills-row">
+                  <div class="skills-data">
+                      <div class="skills-names">
+                          <i class="bx bxl-javascript skills-icon"></i>
+                          <span class="skills-name">JavaScript</span>
+                      </div>
+                  </div>
+                  <div class="skills-data">
+                      <div class="skills-names">
+                          <img class="skills-icon" src="./assets/img/github.svg" alt="" />
+                          <span class="skills-name">GitHub</span>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="skills-row">
+                  <div class="skills-data">
+                      <div class="skills-names">
+                          <img class="skills-icon" src="./assets/img/git.png" alt="" />
+                          <span class="skills-name">Git</span>
+                      </div>
+                  </div>
+                  <div class="skills-data">
+                      <div class="skills-names">
+                          <img class="skills-icon" src="./assets/img/dsa.png" alt="" />
+                          <span class="skills-name">Data Structures and Algorithms</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      
+        <!--===== Projects =====-->
+    <section class="projects section" id="projects">
+        <h2 class="section-title">Projects</h2>
+  
+        <div class="project-container">
+          <div class="project-img">
+            <img src="assets/img/Iris_Voting_System.png" alt="cult.fit" />
+            <p class="project-title">Modern Voting System</p>
+            <p class="project-subtitle">
+              The Modern Voting System using Iris is a cutting-edge project designed to streamline and secure the voting process. By utilizing iris recognition technology, the system ensures accurate voter identification and prevents fraud, making elections more reliable and efficient <br />
+              <br />
+              A collaborative project, built in 1 month by a team of 5 developers
+              . <br />
+              <br />HTML | CSS | JavScript | Python | SQLite
+            </p>
+            <div class="project-btns">
+            
+            </div>
+          </div>
+  
+  
+          <div class="project-img">
+            <img src="assets/img/Portfolio1.png" alt="Reddit.com" />
+            <p class="project-title">Portfolio</p>
+            <p class="project-subtitle">
+              My portfolio website showcases a collection of my projects and skills as a Java Full Stack Developer. It highlights my expertise in various programming languages and technologies, providing a comprehensive view of my work and achievements<br />
+              <br />
+              It is Individual Project build by Me, within 4 days.
+              <br />
+              <br /> HTML | CSS | Javascript 
+            </p>
+            <div class="project-btns">
+             
+          
+              
+            </div>
+          </div>
+  
+          <div class="project-img">
+            <img src="assets/img/EMS.PNG" alt="cult.fit" />
+            <p class="project-title">Employee Management System</p>
+            <p class="project-subtitle">
+              The Employee Management System is designed to streamline HR operations by allowing administrators to efficiently add, delete, and search for employees using their IDs. This system simplifies employee data management and enhances administrative efficiency.
+              <br />
+              <br />
+              It is Individual Project build by Me.
+              . <br />
+              <br />HTML | CSS | Bootstrap | MySQL | Java | J2EE
+            </p>
+            <div class="project-btns">
+             
+            </div>
+          </div>
+          
+          
+  
+  
+          
+        </div>
+    </section>
+    </main>
+    
+  <!--===== FOOTER + CONTACT=====-->
+  
+  <footer class="footer section" id="contact">
+    <h2 class="section-title">Get in Touch</h2>
+    <p class="footer-title">Kota Chethan</p>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/kota-chethan-520909269/" target="_blank" class="footer-icon"><i
+          class="bx bxl-linkedin">
+          <br />
+          LinkedIn</i></a>
+      
+      <a href="mailto:chethankrishna445@gmail.com" target="_blank" class="footer-icon"><i class="bx bx-mail-send">
+          <br />
+          E-mail</i></a>
+      <a href="tel:+91 7794020492" target="_blank" class="footer-icon"><i class="bx bx-phone">
+          <br />
+          Phone</i></a>
+      <a href="https://github.com/Chethan1711" target="_blank" class="footer-icon"><i
+            class="bx bxl-github">
+          <br />
+          GitHub
+          </i></a>
+    </div>
+    
+  </footer>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
